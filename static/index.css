@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    white-space: nowrap;
 }
 a {
     display: block;
@@ -14,7 +15,7 @@ img{
 .container {
     height: 100vh;
     width: 100vw;
-    overflow: scroll;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +27,7 @@ img{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .title-img {
@@ -40,19 +42,18 @@ img{
     background-color: yellow;
     color: red;
     font-weight: 700;
+
 }
 
-.expe {
-    background-color: blue;
-    color: white;
-    font-weight: 700;
-}
 .memo-red {
     font-weight: 700;
     color: red;
     font-size: 14px;
+    white-space: normal;
+    
 }
 .memo {
     font-size: 12px;
     color: #ccc;
+    white-space: normal;
 }
