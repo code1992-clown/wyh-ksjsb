@@ -24,11 +24,6 @@ img{
     width: 100%;
     white-space: normal;
     text-align: left;
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: nowrap; */
 }
 
 .title-img {

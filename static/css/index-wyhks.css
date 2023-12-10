@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    display: block;
+}
+img{
+    display: block;
+    width: 30vw;
+    
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 25vw;
+}
+.title {
+    width: 100%;
+    white-space: normal;
+    text-align: left;
+}
+
+.title-img {
+    max-width: 200px;
+}
+.main-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.import {
+    background-color: yellow;
+    color: red;
+    font-weight: 700;
+}
+
+.memo-red {
+    font-weight: 700;
+    color: red;
+    font-size: 14px;
+    white-space: normal;
+    
+}
+.memo {
+    font-size: 12px;
+    color: #ccc;
+    white-space: normal;
+}
